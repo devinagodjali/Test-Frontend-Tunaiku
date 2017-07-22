@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+
+@media (max-width: 900px){
+    h1{
+        line-height: auto;
+        font-size: 2rem;
+    }
+    img{
+        padding: 20px;
+    }
+}

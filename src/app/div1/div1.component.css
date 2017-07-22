@@ -1,0 +1,19 @@
+.div1{
+    background: #F2f2f2;
+    width:100%;
+    height: auto;
+    padding: 50px;
+}
+h1{
+    line-height: 150%;
+}
+h6{
+    line-height: 200%;
+}
+.btn{
+    background: #2D4453;
+}
+.separator{
+    height: 20px;
+}
+

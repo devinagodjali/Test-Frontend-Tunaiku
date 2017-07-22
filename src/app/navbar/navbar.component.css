@@ -1,0 +1,28 @@
+.navbar{
+    background-color: #2D4453; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+.dropdown-menu{
+    background: rgba(45,68,83, 0.8);
+}
+.dropdown-item{
+     color: white;
+}
+.dropdown-item:hover{
+    color: black;
+    background: rgba(45,68,83, 0);
+}
+
+@media (max-width: 900px){
+    .navbar{
+        padding: 20px;
+    }
+}
+
